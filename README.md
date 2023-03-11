@@ -1,6 +1,6 @@
 # *Meu Portfólio Pessoal*
 
-Este é o meu portfólio pessoal, criado com HTML, CSS e JavaScript. Este site é uma vitrine do meu trabalho anterior, onde posso exibir minhas habilidades em desenvolvimento web e compartilhar minha história profissional com clientes e potenciais empregadores.
+Este é o meu portfólio pessoal, criado com HTML, CSS e JavaScript. Este site é uma vitrine dos meu trabalhos mais recentes feitos na faculdade, onde posso exibir minhas habilidades em desenvolvimento e compartilhar minha história profissional com clientes e potenciais empregadores.
 
 # *Como visualizar o meu portfólio pessoal*
 
