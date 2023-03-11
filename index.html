@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Portfolio Pessoal - Davi</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="perfil-container">
+      <!-- Botao de tema -->
+      <i class="ri-moon-line mudar-tema" id="tema-botao"></i>
+
+      <div class="perfil-container grid">
+        <div class="perfil-dados">
+          <div class="perfil-borda">
+            <div class="perfil-perfil">
+              <img src="img/perfil.png" alt="Imagem de Perfil" />
+            </div>
+          </div>
+          <h2 class="perfil-nome">Davi C Bernardes</h2>
+          <h3 class="profissao">Programador</h3>
+
+          <ul class="perfil-midias-sociais">
+            <a
+              href="https://www.instagram.com/__davibernardes/"
+              target="_blank"
+              class="perfil-links-midia"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/davi-bernardes035/"
+              target="_blank"
+              class="perfil-links-midia"
+            >
+              <i class="ri-linkedin-line"></i>
+            </a>
+            <a
+              href="https://github.com/davibernardes035"
+              target="_blank"
+              class="perfil-links-midia"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="perfil-buttons">
+          <a dowload="" href="pdf/Curriculo.pdf" class="botao">
+            Dowload CV <i class="ri-download-line"></i>
+          </a>
+          <div class="perfil-buttons-contatos">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5535999785855&text&type=phone_number&app_absent=0"
+              target="_blank"
+              class="botao contatos botao-cinza"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="filtro cotainer">
+        <ul class="filtro__conteudo">
+          <button
+            class="filtro__botao filter-tab-active"
+            data-target="#projetos"
+          >
+            Projetos
+          </button>
+          <button class="filtro__botao" data-target="#habilidades">
+            Habilidades
+          </button>
+        </ul>
+
+        <div class="fitro__sections">
+          <div
+            class="projetos__conteudos grid filtro__ativar"
+            data-content
+            id="projetos"
+          >
+            <article class="projetos__cartas">
+              <img src="img/projeto1AD.png" alt="Primeiro Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >Desktop
+                    <h3 class="projetos__titulo">
+                      Simulador de Filas
+                      <a
+                        href="https://docs.google.com/document/d/1KxXXqzmx2kqvmg0VgaWjdR1dvI2f4R-d2N3CDolQQP8/edit?usp=sharing"
+                        target="_blank"
+                        class="projetos__botao botao__pequeno"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                      <p class="descricao">
+                        O objetivo deste trabalho é coletar dados sobre
+                        ocupação, E[N], E[W] e erro de Little a cada 100
+                        segundos de simulação. A taxa média de chegada e o tempo
+                        de simulação são fixados. O código fonte do simulador
+                        deve ser modificado para permitir a coleta desses dados
+                        e ser executado para quatro cenários diferentes, onde é
+                        calculado o tempo médio de serviço para atingir as
+                        ocupações de 80%, 90%, 95% e 99%.
+                      </p>
+                    </h3>
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="projetos__cartas">
+              <img src="img/projeto2MC.png" alt="Segundo Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >Desktop
+                    <h3 class="projetos__titulo">
+                      Matriz de conhecimento
+                      <a
+                        href="https://colab.research.google.com/drive/1ieLJ9jNmd7wBYmgKiRK1GH9hACzRu2Zl?usp=sharing"
+                        class="projetos__botao botao__pequeno"
+                        target="_blank"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                      <p class="descricao">
+                        Nessa atividade deveriamos criar uma representação, via
+                        matriz de conhecimento, de uma base de dados que mapeia
+                        um determinado tipo de dado/informação/comportamento.
+                        Escolhi um base de dados no Kaggle e fiz a representação
+                        (confira no icone do link)
+                      </p>
+                    </h3>
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="projetos__cartas">
+              <img src="img/projeto3IA.png" alt="Terceiro Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >Desktop
+                    <h3 class="projetos__titulo">
+                      Modelo de Inteligência Artificial Supervisionado
+                      <a
+                        href="https://colab.research.google.com/drive/1BCX4uyUwJ6-lywKeiLrcEKO6jXiWXlor?usp=sharing"
+                        class="projetos__botao botao__pequeno"
+                        target="_blank"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                    </h3>
+                    <p class="descricao">
+                      A ideia é criar um modelo de IA para resolver um problema
+                      que necessite de treinamento supervisionado. Os objetivos
+                      principais desta atividade são: verificar o impacto dos
+                      conjuntos de treinamento no desempenho do modelo, entender
+                      como o balanceamento dos dados afeta o aprendizado em
+                      problemas de classificação, avaliar as vantagens e
+                      desvantagens de diferentes modelos e realizar testes em
+                      problemas de regressão/classificação.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="projetos__cartas">
+              <img src="img/projeto4IA.png" alt="Quarto Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >Desktop
+                    <h3 class="projetos__titulo">
+                      Modelo de Inteligência Artificial Não Supervisionado
+                      <a
+                        href="https://colab.research.google.com/drive/1zJC1yux2gs-qa8-b3b0WjQeE1_i4GQY5?usp=sharing"
+                        class="projetos__botao botao__pequeno"
+                        target="_blank"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                    </h3>
+                    <p class="descricao">
+                      Existem diversos tipos de problemas que podem ser
+                      solucionados com essa abordagem de aprendizado de máquina,
+                      sendo o principal deles o problema de agrupamento de dados
+                      não rotulados. A ideia dessa atividade é escolher uma base
+                      com dados para estudar as técnicas de aprendizado não
+                      supervisionado.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="projetos__cartas">
+              <img src="img/projeto5CGI.png" alt="Quinto Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >Desktop
+                    <h3 class="projetos__titulo">
+                      Ambiente de um Castelo
+                      <a
+                        href="https://www.youtube.com/watch?v=zoaSweXmat4&t=2s"
+                        class="projetos__botao botao__pequeno"
+                        target="_blank"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                    </h3>
+                    <p class="descricao">
+                      Nesse projeto, nossa equipe foi responsável por criar um
+                      jogo criativo utilizando um objeto modelado durante as
+                      aulas. Era obrigatório que o jogo fosse em 3D e contivesse
+                      instruções para o jogador, como setas, dicas ou mensagens.
+                      Tivemos à disposição os softwares UPBGE, Unity ou Unreal
+                      Engine para desenvolvermos nosso jogo. Foi uma experiência
+                      desafiadora e empolgante, e ficamos muito satisfeitos com
+                      o resultado final do nosso jogo. Aprendemos muito sobre
+                      desenvolvimento de jogos e estamos prontos para enfrentar
+                      novos desafios nessa área.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="projetos__cartas">
+              <img src="img/projeto6WEB.png" alt="Quinto Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >WEB
+                    <h3 class="projetos__titulo">
+                      Loja Virtual Mind Skate Shop
+                      <a
+                        href="https://www2.bcc.unifal-mg.edu.br/~2019.1.08.021/wordpress/"
+                        class="projetos__botao botao__pequeno"
+                        target="_blank"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                    </h3>
+                    <p class="descricao">
+                      O objetivo foi criar uma loja de comércio eletrônico
+                      utilizando o plugin WooCommercer do WordPress. Durante o
+                      projeto, tivemos portunidade de aprender como utilizar o
+                      WooCommerce para configurar uma loja online completa e
+                      personalizada, incluindo a criação de produtos,
+                      gerenciamento de estoque, processamento de pagamentos e
+                      muito mais.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </article>
+
+            <article class="projetos__cartas">
+              <img src="img/projeto7POR.png" alt="Quinto Projeto " />
+              <div class="projetos__modelo">
+                <div>
+                  <span class="projetos__subtitulo"
+                    >WEB
+                    <h3 class="projetos__titulo">
+                      Portfolio Pessoal
+                      <a
+                        href="https://davibernardes035.github.io/davibernardes035/"
+                        class="projetos__botao botao__pequeno"
+                        target="_blank"
+                      >
+                        <i class="ri-link"></i>
+                      </a>
+                    </h3>
+                    <p class="descricao">
+                      Nesta atividade, deveriamos criar um portfólio pessoal
+                      utilizando HTML, CSS e JavaScript. O objetivo é apresentar
+                      meus trabalhos, habilidades e experiências de forma
+                      criativa e profissional.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div
+            class="habilidades__conteudos grid"
+            data-content
+            id="habilidades"
+          >
+            <div class="habilidades__area">
+              <h3 class="habilidades__titulo">Ferramentas Frontend</h3>
+              <div class="habilidades__box">
+                <div class="habilidades_grupo">
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">HTML</h3>
+                      <span class="habilidades__level">Avançado</span>
+                    </div>
+                  </div>
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">CSS</h3>
+                      <span class="habilidades__level">Intermediário</span>
+                    </div>
+                  </div>
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">JavaScript</h3>
+                      <span class="habilidades__level">Intermediário</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="habilidades_grupo">
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">BootStrap</h3>
+                      <span class="habilidades__level">Básico</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="habilidades__area">
+              <h3 class="habilidades__titulo">Ferramentas Backend</h3>
+              <div class="habilidades__box">
+                <div class="habilidades_grupo">
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">C</h3>
+                      <span class="habilidades__level">Avançado</span>
+                    </div>
+                  </div>
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">Java</h3>
+                      <span class="habilidades__level">Intermediário</span>
+                    </div>
+                  </div>
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">Python</h3>
+                      <span class="habilidades__level">Intermediário</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="habilidades_grupo">
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">GIT</h3>
+                      <span class="habilidades__level">Básico</span>
+                    </div>
+                  </div>
+                  <div class="habilidades__dados">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="habilidades__nome">SQL</h3>
+                      <span class="habilidades__level">Básico</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <span class="footer__copy">
+        &#169; Davi Custodio Bernardes. Todos os direitos reservados
+        <br />
+        <i class="ri-mail-line"></i>
+        Email para contato: daviber20@gmail.com
+      </span>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="JS/scrollreveal.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
