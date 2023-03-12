@@ -8,15 +8,15 @@ Para visualizar o meu portfólio pessoal, basta acessar o link https://daviberna
 
 # *Tecnologias utilizadas*
 
-HTML5
-CSS3
-JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 # *Recursos utilizados*
 
-Remix Icon (para ícones)
-Google Fonts (para tipografia)
-Scroll Reveal (para animação)
+* Remix Icon (para ícones)
+* Google Fonts (para tipografia)
+* Scroll Reveal (para animação)
 
 # *Sobre mim*
 Sou um programador apaixonado por tecnologia e sempre em busca de novos desafios. Meu foco é sempre entregar projetos de qualidade, que atendam às necessidades dos clientes e usuários. Se você gostou do meu trabalho e quer entrar em contato, fique à vontade para enviar um e-mail para daviber20@gmail.com.
