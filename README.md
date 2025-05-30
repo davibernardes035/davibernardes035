@@ -1,6 +1,9 @@
 # 💫 Hello World! I'm Davi, a data enthusiast:
+
 👽 currently working on [![Vigna](https://img.shields.io/badge/Vigna-white)](https://vigna.adv.br)  
+
 🎒 I love studying data science and data engineering
+
 💻 working as a developer since 2024
 
 ## 🌐 Socials:
