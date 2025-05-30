@@ -1,10 +1,8 @@
 # 💫 Hello World! I'm Davi, a data enthusiast:
 
-👽 currently working on [![Vigna](https://img.shields.io/badge/Vigna-white)](https://vigna.adv.br)  
-
-🎒 I love studying data science and data engineering
-
-💻 working as a developer since 2024
+👽 currently working on [![Vigna](https://img.shields.io/badge/Vigna-white)](https://vigna.adv.br)  <br>
+🎒 I love studying data science and data engineering <br>
+💻 working as a developer since 2024 <br>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/bernardesdavi) 
@@ -22,7 +20,7 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
 </picture>
 
-[![profile_visits](https://komarev.com/ghpvc/?username=davibernardes035&color=blue&style=flat-square&label=Profile+Visits)](https://github.com/davibernardes035 "since Dec 25, 2020")
+[![profile_visits](https://komarev.com/ghpvc/?username=davibernardes035&color=blue&style=flat-square&label=Profile+Visits)](https://github.com/davibernardes035 "since Aug 11, 2020")
 ---
 [![](https://visitcount.itsvg.in/api?id=davibernardes035&icon=0&color=0)](https://visitcount.itsvg.in)
 
