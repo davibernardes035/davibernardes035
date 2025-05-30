@@ -22,6 +22,7 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
 </picture>
 
+[![profile_visits](https://komarev.com/ghpvc/?username=davibernardes035&color=blue&style=flat-square&label=Profile+Visits)](https://github.com/davibernardes035 "since Dec 25, 2020")
 ---
 [![](https://visitcount.itsvg.in/api?id=davibernardes035&icon=0&color=0)](https://visitcount.itsvg.in)
 
